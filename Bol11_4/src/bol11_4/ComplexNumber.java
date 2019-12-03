@@ -6,7 +6,7 @@ package bol11_4;
 public class ComplexNumber {
     private double imaginario;
     private double real;
-    public static final ComplexNumber Zero=new ComplexNumber(0,0);
+    public static final ComplexNumber ZERO=new ComplexNumber(0,0);
 
     public ComplexNumber(double imaginario, double real) {
         this.imaginario = imaginario;
