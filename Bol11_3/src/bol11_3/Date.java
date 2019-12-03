@@ -14,9 +14,11 @@ public class Date {
         if (comprobarDia(dia) == true) {
             this.dia = dia;
         }
+        else dia=1;
         if (mes < 13 && dia > 0) {
             this.mes = mes;
         }
+        else mes=1;
         this.año = año;
 
     }
