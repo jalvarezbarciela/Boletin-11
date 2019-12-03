@@ -42,7 +42,7 @@ public class Date {
     }
 
     public void setMes(int mes) {
-        if (mes < 13) {
+        if (mes<13&& mes>0) {
             this.mes = mes;
         }
     }
